@@ -1,6 +1,12 @@
 {
     "[rust]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    }
+        "editor.inlayHints.enabled": "offUnlessPressed",
+    },
+
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+      ]
 }
